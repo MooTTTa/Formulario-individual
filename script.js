@@ -21,7 +21,7 @@ function isValidCPF(cpf) {
         var resultado = (soma % 11) < 2 ? 0 : 11 - (soma % 11); // capturando o resto da variavel soma
 
         //validacao do primeiro digito
-        
+
         if (resultado != digitos.charAt(0)) {
             return false;
         }
@@ -56,9 +56,9 @@ function validacao() {
         var element = document.getElementById('result');
         element.innerHTML = `\u{274C}`
 
-        // abaixo é o alerta com tempo de 1 seg apos aparecer o emoji invalido // 
+        // abaixo é o alerta apos aparecer o emoji invalido // 
 
-        setTimeout(() => { alert("CPF Invalido, confira o numero digitado!"); }, 1000); //  o 1000 milisegundos significa o tempo para executar o alert //
+        alert("CPF Invalido, confira o numero digitado!"); // alerta mostrando que cpf está invalido//
     }
 
 }
