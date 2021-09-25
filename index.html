@@ -26,11 +26,11 @@
                     <div class="dados">
                         <div>
                             <label for="nome">Nome Completo *</label><br />
-                            <input type="texto" id="nome" name="nome_usuario" placeholder="Digite seu nome" required />
+                            <input type="texto" id="nome" name="nome_usuario" placeholder="Digite seu nome" required/>
                         </div>
                         <div class="select-estiloso">
                             <div class="grupo">
-                                <label for="texto">Sexo </label><br />
+                                <label for="texto">Sexo </label><br/>
                                 <select name="cars" id="cars">
                                     <option value="op1">Selecione</option>
                                     <option value="op4">Feminino</option>
@@ -42,7 +42,7 @@
 
                             <div class="grupo">
                                 <label for="email">E-mail </label><br>
-                                <input type="email" name="email" placeholder="exemple@exemple.com" />
+                                <input type="email" name="email" placeholder="exemple@exemple.com"/>
                             </div>
                         </div>
 
@@ -51,52 +51,52 @@
 
                     <div class="estilo">
                         <div class="grupo">
-                            <label for="texto">CPF * <span id="result"> </span></label> <br />
+                            <label for="texto">CPF * <span id="result"> </span></label> <br/>
                             <input type="text" id="cpf_digitado" name="CEP_usuario"
                                 placeholder="Digite o numero do seu CPF" onblur="validacao()" maxlength="11" class="cep"
-                                required />
+                                required/>
                         </div>
 
                         <div class="grupo">
                             <label for="texto">RG</label> <br />
-                            <input type="text" id="rg_digitado" class="cep" placeholder="Digite o numero do seu RG" />
+                            <input type="text" id="rg_digitado" class="cep" placeholder="Digite o numero do seu RG"/>
                         </div>
                     </div>
                     <div class="linha">
-                        <p> Dados de endereço</p>
+                        <p> Dados de Localização </p>
                         <hr>
                     </div>
                     <div class="estilo">
                         <div class="grupo">
-                            <label for="texto">CEP *</label><br />
+                            <label for="texto">CEP</label><br/>
                             <input type="text" id="cep_digitado" name="CEP_usuario" placeholder="Digite seu CEP"
-                                maxlength="9" class="cep" required />
+                                maxlength="9" class="cep"/>
                         </div>
                         <div class="grupo">
-                            <label for="texto">Estado *</label> <br />
-                            <input type="text" class="cep" required />
+                            <label for="texto">Estado</label> <br />
+                            <input type="text" class="cep"/>
                         </div>
                     </div>
 
                     <div class="estilo">
                         <div class="grupo">
-                            <label for="texto">Cidade *</label> <br />
+                            <label for="texto">Cidade</label> <br />
                             <input type="text" class="cep" />
                         </div>
                         <div class="grupo">
                             <label for="texto">Endereço *</label> <br />
-                            <input type="text" class="cep" />
+                            <input type="text" id="endereco" class="cep" required/>
                         </div>
                     </div>
 
                     <div class="estilo">
                         <div class="grupo" id="bairro">
-                            <label for="texto">Bairro *</label> <br />
+                            <label for="texto">Bairro</label> <br />
                             <input type="text" id="numero" name="numero" class="cep" />
                         </div>
                         <div class="grupo">
                             <label for="texto">Numero *</label> <br />
-                            <input type="text" id="numero_casa" class="cep" required="" />
+                            <input type="text" id="numero_casa" class="cep" required/>
                         </div>
                     </div>
                     <div class="linha">
@@ -110,7 +110,7 @@
                         </div>
                         <div class="grupo">
                             <label for="texto">Celular *</label> <br />
-                            <input type="text" class="cep" required="" />
+                            <input type="text" id="telefone_celular" class="cep" required/>
                         </div>
                     </div>
 
@@ -123,6 +123,7 @@
                     </div>
                 </form>
             </div>
+
             <div class="conteudo-direita">
 
             </div>
