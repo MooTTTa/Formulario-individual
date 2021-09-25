@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ebeae2;
+  }
+  
+  body, input, select, button
+  {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 90x;
+    background: #ec7001;
+    margin-bottom: 30px;
+    
+  }
+
+  .titulosite {
+      padding-left: 280px;
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 30px;
+      color: #f38033;
+
+
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-left: 40px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+
+  }
+  
+  .titulo {
+    margin-left: 120px;
+    color: #ebeae2;
+    padding-top: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .container {
+    width: 80%;
+    margin-top: 100px;
+    margin: auto;
+    background-color: #ebeae2;    
+  }
+  
+  fieldset {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    border: #eb7404;
+  }
+  
+  fieldset .conteudo-esquerda {
+    width: 720px;
+    height: 820px;
+    float: left;
+    padding-top: 10px;
+    background: #706a66;
+    border-radius: 40px;
+  }
+  
+  .linha
+  {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .linha hr {
+    width: 100%;
+    height: 1px;
+  }
+  
+  .linha p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .grupo {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+  }
+  
+  fieldset .conteudo-direita {
+    background-image: url("img/imgdireita.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+
+  }
+  
+  form {
+    margin: 30px auto;
+    width: 630px;
+    height: 600px;
+    padding: 10px;
+    color: #fff;
+  
+    clear: both;
+  }
+  
+  form div + div {
+    margin-top: 10px;
+  }
+  
+  input, select {
+    font: 15px sans-serif;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    clear: both;
+  }
+  
+  input[type="email"]
+  {
+      width: 430px;
+      border-radius: 5px;
+  
+  }
+  #result {
+      width: 20px;
+      height: 20px;
+      list-style: none;
+      justify-content: space-evenly;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .documento,
+  .estilo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+  .documento .cpf .rg,
+  .estilo .cep {
+    font: 15px sans-serif;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-right: 40px;
+  }
+  #cpf_digitado{
+      width: 300px;
+      border-radius: 5px;
+      padding-right: 20px;
+     
+  }
+  #rg_digitado{
+      width: 300px;
+      border-radius: 5px;
+  }
+  #numero_casa{
+      width: 100px;
+      border-radius: 5px;
+      
+  }
+  
+  #bairro{
+    padding-right: 200px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #4176a1;
+  }
+  
+  .button {
+    padding-left: 160px;
+    padding-top: 20px;
+  }
+  
+  button {
+    background: #f76c30;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    text-shadow: none;
+    width: 300px;
+    height: 35px;
+    box-shadow: 0 8px 16px 0 rgba(13, 13, 14, 0.329),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  button:hover {
+    background: #f76c30e3;
+  }
+  
+  .select-estiloso {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+  }
+  
+  .select-estiloso select {
+    width: 160px;
+    font: 15px sans-serif;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .texto-final{
+    margin-top:  5px;
+  }
+  
+  footer
+  {
+      margin-top: 80px;
+      width: 100%;
+      height: 200px;
+      background-color: #706a66;
+      color: white;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 64px;
+      justify-items: center;
+      align-items: center;
+   
+      text-align: center;
+    
+  }
+  
+  .rodape{
+      display: grid;
+      grid-template-rows: repeat(2, auto);
+      align-items: baseline;
+      text-align: center;
+      margin-left: 150px;
+      font-family:  "Open Sans", sans-serif;
+      
+  }
+  
+  .rodape h2{
+      font-size: 15px; 
+  }
+  
+  .final{
+   padding-top: 30px;
+  }
+      
+  footer img{
+      justify-self: flex-end;
+      margin-right: 40px;
+      width: 150px;
+      height: 150px;
+     
+  }
